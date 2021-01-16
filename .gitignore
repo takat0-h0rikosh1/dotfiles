@@ -1,6 +1,10 @@
 /*
 /.**
 
+!/.bash_profile 
+!/.bashrc       
+!/.config/
+
 !/README.md
 !.gitignore
 !.gitkeep
