@@ -3,7 +3,10 @@
 
 !/.bash_profile 
 !/.bashrc       
-!/.config/
+!/.config/fish/config.fish
+!/.vimrc
+!/.ideavimrc
+
 
 !/README.md
 !.gitignore
