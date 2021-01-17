@@ -1,0 +1,28 @@
+[user]
+  name = takat0-h0rikosh1 
+  email = takato.h0rikosh1@gmail.com
+[core]
+  excludesfile = /Users/t_horikoshi/.gitignore_global
+#[includeIf "gitdir:~/???/"]
+#  path = ~/.gitconfig_???
+[filter "lfs#"]
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+  clean = git-lfs clean -- %f
+[rebase]
+	autosquash = true
+[alias]
+  co  = checkout
+  cm  = commit
+  br  = branch
+  brr = branch -r
+  s   = status
+  ss  = status -s
+  f   = fetch --prune
+  su  = submodule update
+[filter "lfs"]
+  required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
