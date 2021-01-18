@@ -1,5 +1,3 @@
-source ~/.bashrc
-
 # vi mode
 set fish_plugins autojump vi-mode
 
@@ -33,28 +31,13 @@ set -x PATH $HOME/.nodebrew/current/bin $PATH
 # review
 set -x PATH /Users/t_horikoshi/project/review/bin $PATH
 
-# ffmpeg, ffprove
-set -x PATH /Users/t_horikoshi/.ffmpeg $PATH
-set -x PATH /Users/t_horikoshi/.ffprobe $PATH
-
 # github
 ssh-add -K ~/.ssh/github
-set -x PATH /Users/t_horikoshi/.cabal/bin/ /Users/t_horikoshi/.ghcup/bin/ $PATH 
-
-# MySQL
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-#export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
 
 # go
 eval (goenv init - | source)
 set -x GOPATH (go env GOPATH)
 set -x PATH (go env GOPATH)/bin $PATH
-
-# haskell-ide-engine
-set -x PATH $HOME/.local/bin $PATH
-
-# dd.mypage
-ssh-add -K ~/.ssh/easimon.bastion.root
 
 # required brew
 export PATH="/usr/local/sbin:$PATH"
