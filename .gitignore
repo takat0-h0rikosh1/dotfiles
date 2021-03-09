@@ -8,8 +8,7 @@
 !/.ideavimrc
 !/.git*
 !/fish/
-
-
 !/README.md
 !.gitignore
 !.gitkeep
+!Makefile
