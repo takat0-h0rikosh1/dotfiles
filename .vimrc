@@ -22,7 +22,7 @@ if !isdirectory(expand("$HOME/.vim/undodir"))
 endif
 set undodir=$HOME/.vim/undofile
 
-execute pathogen#infect()
+" execute pathogen#infect()
 
 " ノーマルモードの時にENTERで改行
 " nnoremap <silent> <CR> o<ESC>
@@ -57,17 +57,17 @@ set printfont=Cica:h12
 set ambiwidth=double
 
 " vim-plugでプラグインを管理する
-call plug#begin()
-Plug 'scrooloose/nerdtree'
-Plug 'tpope/vim-vinegar'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'mileszs/ack.vim'
-Plug 'easymotion/vim-easymotion'
-Plug 'junegunn/vim-plug'
-Plug 'simeji/winresizer'
-call plug#end()
+"call plug#begin()
+"Plug 'scrooloose/nerdtree'
+"Plug 'tpope/vim-vinegar'
+"Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'mileszs/ack.vim'
+"Plug 'easymotion/vim-easymotion'
+"Plug 'junegunn/vim-plug'
+"Plug 'simeji/winresizer'
+"call plug#end()
 
-if empty(glob('~/.vim/autoload/plug.vim'))
-    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-endif
+"if empty(glob('~/.vim/autoload/plug.vim'))
+"    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+"    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+"endif
