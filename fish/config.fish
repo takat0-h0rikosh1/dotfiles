@@ -1,5 +1,4 @@
 # vi mode
-set fish_plugins autojump vi-mode
 fish_vi_key_bindings
 
 # omf bobthefish
@@ -35,3 +34,6 @@ if eval (command -v pyenv 1>/dev/null 2>&1)
 end
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
+
+# stack
+set -x PATH $HOME/.local/bin $PATH
