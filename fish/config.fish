@@ -1,5 +1,6 @@
 # vi mode
 set fish_plugins autojump vi-mode
+fish_vi_key_bindings
 
 # omf bobthefish
 set -g theme_powerline_fonts no
