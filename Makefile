@@ -7,4 +7,6 @@ deploy:
 	@$(foreach val, $(DOTFILES_FILES), ln -sfnv $(abspath $(val)) $(HOME)/$(val);)
 
 init:
+	ln -sfnv $(PWD)/.Brewfile $(HOME)/.Brewfile
+	brew bundle dump --global --force
 	@$(foreach val, $(wildcard ./etc/init/*.sh), bash $(val);)

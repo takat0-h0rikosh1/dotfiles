@@ -1,8 +1,8 @@
 [user]
-  name = takat0-h0rikosh1 
+  name = takat0-h0rikosh1
   email = takato.h0rikosh1@gmail.com
 [core]
-  excludesfile = /Users/t_horikoshi/.gitignore_global
+  excludesfile = ~/.gitignore_global
 #[includeIf "gitdir:~/???/"]
 #  path = ~/.gitconfig_???
 [filter "lfs#"]
@@ -21,8 +21,11 @@
   ss  = status -s
   f   = fetch --prune
   su  = submodule update
+  p   = push
 [filter "lfs"]
   required = true
   clean = git-lfs clean -- %f
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
+[init]
+	defaultBranch = main

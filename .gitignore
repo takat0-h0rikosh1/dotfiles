@@ -1,10 +1,10 @@
 /*
 /.**
 
-!/.bash_profile 
-!/.bashrc       
+!/.bash_profile
+!/.bashrc
 !/.config/fish/config.fish
-!/.vimrc
+!/.vimrc2
 !/.ideavimrc
 !/.git*
 !/fish/
@@ -12,3 +12,6 @@
 !.gitignore
 !.gitkeep
 !Makefile
+!etc
+!.Brewfile
+!/.zshrc
