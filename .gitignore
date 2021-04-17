@@ -4,7 +4,7 @@
 !/.bash_profile
 !/.bashrc
 !/.config/fish/config.fish
-!/.vimrc2
+!/.vimrc
 !/.ideavimrc
 !/.git*
 !/fish/
@@ -15,3 +15,4 @@
 !etc
 !.Brewfile
 !/.zshrc
+
