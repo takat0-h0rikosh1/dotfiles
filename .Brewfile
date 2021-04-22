@@ -67,6 +67,7 @@ brew "rcmdnk/file/brew-file"
 brew "warrensbox/tap/tfswitch"
 cask "aws-vault"
 cask "basictex"
+cask "hammerspoon"
 cask "visual-studio-code"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
