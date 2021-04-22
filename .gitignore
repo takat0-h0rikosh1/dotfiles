@@ -1,18 +1,15 @@
 /*
 /.**
 
-!/.bash_profile
-!/.bashrc
-!/.config/fish/config.fish
-!/.vimrc
-!/.ideavimrc
-!/.git*
-!/fish/
-!/README.md
+!.vimrc
+!.ideavimrc
+!.git*
+!fish/
+!README.md
 !.gitignore
 !.gitkeep
 !Makefile
 !etc
 !.Brewfile
-!/.zshrc
-
+!.zshrc
+!.hammerspoon
