@@ -13,7 +13,6 @@ brew "apache-spark"
 brew "readline"
 brew "autoconf"
 brew "xz"
-brew "python@3.9"
 brew "awscli"
 brew "bash-completion"
 brew "libpng"
@@ -69,18 +68,11 @@ brew "ktr0731/evans/evans"
 brew "rcmdnk/file/brew-file"
 brew "warrensbox/tap/tfswitch"
 cask "aws-vault"
-cask "basictex"
 cask "hammerspoon"
 cask "visual-studio-code"
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "SafeInCloud パスワード マネージャー", id: 883070818
 mas "Slack", id: 803453959
-mas "ToyViewer", id: 414298354
 mas "Vimari", id: 1480933944
 mas "Xcode", id: 497799835
+mas "SafeInCloud パスワード マネージャー", id: 883070818
