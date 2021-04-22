@@ -4,4 +4,5 @@ package-lock.json
 *.iml
 .idea/
 .idea/workspace.xml
+.terraform/
 
