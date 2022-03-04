@@ -9,4 +9,5 @@ deploy:
 init:
 	ln -sfnv $(PWD)/.Brewfile $(HOME)/.Brewfile
 	brew bundle dump --global --force
+	fisher install reitzig/sdkman-for-fish@v1.4.0
 	@$(foreach val, $(wildcard ./etc/init/*.sh), bash $(val);)
