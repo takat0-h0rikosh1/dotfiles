@@ -7,8 +7,5 @@ deploy:
 	@$(foreach val, $(DOTFILES_FILES), ln -sfnv $(abspath $(val)) $(HOME)/$(val);)
 
 init:
-	ln -sfnv $(PWD)/.Brewfile $(HOME)/.Brewfile 
-	brew bundle dump --global --force 
-	fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher" 
-	fish -c "fisher install reitzig/sdkman-for-fish@v1.4.0"
+	brew bundle --file=$(PWD)/.Brewfile
 	@$(foreach val, $(wildcard ./etc/init/*.sh), bash $(val);)
